@@ -42,11 +42,11 @@ export const useHomeFetch = () => {
     }
   }, [])
 
-  useEffect(() => {
-    if(!state.searchTerm) {
-      sessionStorage.setItem('homeState', JSON.stringify(state));
-    }
-  }, [state])
+  // useEffect(() => {
+  //   if(!state.searchTerm) {
+  //     sessionStorage.setItem('homeState', JSON.stringify(state));
+  //   }
+  // }, [state])
 
   return [{ state, loading, error}, fetchMovies];
 }

@@ -24,8 +24,12 @@ const Header = () => (
       
       <StyledTMDBLogo src={'https://alfredorafael.com/wp-content/uploads/2020/04/MDBLogo.png'} alt="tmdb-logo" />
     
-      <StyledLinkedinLogo src={'https://alfredorafael.com/wp-content/uploads/2020/03/linkedin_logo_white.png'} alt="Linkedin Logo"/>
-
+    {/* //////////////////////////////////////////////////////////////////////// */}
+    <a href={"https://www.linkedin.com/in/alfredo-rafael/"} target="_blank">
+    <StyledLinkedinLogo src={'https://alfredorafael.com/wp-content/uploads/2020/03/linkedin_logo_white.png'} alt="Linkedin Logo"/>
+   </a>
+   {/* //////////////////////////////////////////////////////////////////////// */}
+   
    {/*  <StyledInfoLogo src={'https://alfredorafael.com/wp-content/uploads/2020/04/InfoMovieApp.png'} alt="Info Logo"/>  */}  
 
 

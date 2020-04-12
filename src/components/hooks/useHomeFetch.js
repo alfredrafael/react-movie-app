@@ -20,7 +20,7 @@ export const useHomeFetch = () => {
           isLoadMore !== -1
         ? [...prev.movies, ...result.results]
         : [...result.results],
-        heroImage: prev.heroImage || result.results[0],
+        heroImage: result.results[1],
         currentPage: result.page,
         totalPages: result.total_pages
       }))
@@ -34,13 +34,23 @@ export const useHomeFetch = () => {
 
   // Fetch popular movies initially on mount
   useEffect(() => {
-    if (sessionStorage.homeState) {
-      setState(JSON.parse(sessionStorage.homeState));
-      setLoading(false)
-    } else {
       fetchMovies(POPULAR_BASE_URL);
-    }
+    
   }, [])
+
+  
+  
+  
+  
+  
+  // useEffect(() => {
+  //   if (sessionStorage.homeState) {
+  //     setState(JSON.parse(sessionStorage.homeState));
+  //     setLoading(false)
+  //   } else {
+  //     fetchMovies(POPULAR_BASE_URL);
+  //   }
+  // }, [])
 
   // useEffect(() => {
   //   if(!state.searchTerm) {

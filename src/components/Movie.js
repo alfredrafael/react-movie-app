@@ -17,7 +17,7 @@ const Movie = ({ movieId }) => {
   if (loading) return <Spinner />;
 
   return (
-  <>
+  <React.Fragment>
     <Navigation movie={movie.original_title} />
     <MovieInfo movie={movie} />
     <MovieInfoBar
@@ -30,7 +30,7 @@ const Movie = ({ movieId }) => {
         <Actor key={actor.credit_id} actor={actor} />
       ))}     
     </Grid>
-  </>
+  </React.Fragment>
   )
 };
 

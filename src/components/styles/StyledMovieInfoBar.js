@@ -6,7 +6,7 @@ export const StyledMovieInfoBar = styled.div`
   width: 100%;
   min-height: 100px;
   height: auto;
-  background: #1c1c1c;
+  background: #040160;
   padding: 20px;
   box-sizing: border-box;
   font-family: 'Abel', sans-serif;

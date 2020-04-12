@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledSearchBar = styled.div`
   width: 100%;
   height: 105px;
-  background: #1c1c1c;
+  background: #040182;
   padding: 25px 20px 0px 20px;
   box-sizing: border-box;
   color: #fff;
@@ -13,23 +13,23 @@ export const StyledSearchBarContent = styled.div`
   max-width: 1280px;
   width: 100%;
   height: 55px;
-  background: #353535;
+  background: azure;
   margin: 0 auto;
   border-radius: 40px;
   position: relative;
-  color: #fff;
+  color: blue;
 
   .fa-search {
     position: absolute;
     left: 20px;
     top: 12px;
-    color: #fff;
+    color: navy;
     z-index: 1000;
   }
 
   input {
     font-family: 'Abel', sans-serif;
-    font-size: 28px;
+    font-size: 34px;
     position: absolute;
     left: 0px;
     margin: 8px 0;
@@ -38,7 +38,7 @@ export const StyledSearchBarContent = styled.div`
     width: 95%;
     background: transparent;
     height: 40px;
-    color: #fff;
+    color: blue;
     box-sizing: border-box;
 
     :focus {

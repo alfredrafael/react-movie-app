@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledHeader = styled.div`
   background: #040182;
@@ -20,26 +20,26 @@ export const StyledHeader = styled.div`
 `;
 
 export const StyledAlfredoMovieLogo = styled.img`
-  width: 200px;
+  width: 7%;
   margin-top: 7px;
 
   @media screen and (max-width: 500px) {
-    width: 150px;
+    width: 15%;
     margin-top: 5px;
   }
 `;
 
 export const StyledTMDBLogo = styled.img`
-  width: 70px;
+  width: 3.5%;
   margin-top: 8px;
   float: right;
 
   @media screen and (max-width: 500px) {
     display: inline-block;
-    width: 80px;
+    width: 10%;
     margin-top: 0px;
   }
-`
+`;
 
 export const StyledLinkedinLogo = styled.img`
   width: 70px;
@@ -51,9 +51,10 @@ export const StyledLinkedinLogo = styled.img`
     display: inline-block;
     width: 80px;
     margin-top: 0px;
-  }`
+  }
+`;
 
-  export const StyledInfoLogo = styled.img`
+export const StyledInfoLogo = styled.img`
   width: 70px;
   margin-top: 8px;
   float: right;
@@ -63,5 +64,5 @@ export const StyledLinkedinLogo = styled.img`
     display: inline-block;
     width: 80px;
     margin-top: 0px;
-  }`
-;
+  }
+`;

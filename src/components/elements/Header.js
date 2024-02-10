@@ -21,7 +21,7 @@ const Header = () => (
       {/* //////////////////////////////////////////////////////////////////////// */}
       <StyledAlfredoMovieLogo
         src={
-          "https://rmrdetailing.com/wp-content/uploads/2021/10/AR-logo-white.png"
+          "http://www.alfredorafael.com/wp-content/uploads/2019/02/whileLogoName-e1551079673184.png"
         }
         alt="rmdb-logo"
       />{" "}
